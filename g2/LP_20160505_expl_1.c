@@ -2,6 +2,7 @@
 #include<stdlib.h>
 
 int main(){
+    
     int x = 10;
     int y = 20;
     int aux;
@@ -18,4 +19,6 @@ int main(){
     *ptr2 = *ptr1 - *ptr2;
     *ptr1 = *ptr1 - *ptr2;
     printf("x = %d e Y = %d \n", x, y);
+    
+    
 }
