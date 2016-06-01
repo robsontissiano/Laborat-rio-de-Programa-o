@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include <string.h>
 
 char * my_strcat( char *dest, char *src ){
 
@@ -35,10 +36,12 @@ char * my_strcat( char *dest, char *src ){
 
 int main(){
 
-	char a[] = "amanda";
-	char b[] = " almeira";
+	char src[50], dest[50];
 
-	printf("%s\n", my_strcat(a,b));
+	strcpy(src,  "This is source");
+    strcpy(dest, "This is destination");
+
+	printf("%s\n", my_strcat(dest,src));
 
 
 }
