@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-char * my_strstr(char * str, char * ubstr ){
+char * my_strstr(char * str, char * ubstr){
 
 	while (*str != '\0')
 	{
@@ -17,8 +17,8 @@ char * my_strstr(char * str, char * ubstr ){
 int main(){
 
 	char a[] = "alexandre@email.com";
-
-	printf("%s\n", my_strchr(a,'@'));
+	char b[] = "dre";
+	printf("%s\n", my_strstr(a,b));
 
 
 }
