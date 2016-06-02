@@ -26,45 +26,45 @@ ou NULL se não encontrar.
 5. Desenvolver uma função para realizar a quebra de uma String em diversas Strings menores, de acordo com um caractere separador (token) fornecido. Esta função deverá receber uma string e um token e deverá retornar para a main um vetor de ponteiros contendo em cada ponteiro a parte da string quebrada.
 
 
-Exemplo:
+    Exemplo:
 
 
-String de entrada: Hoje#o#dia#esta#chuvoso!
+    String de entrada: Hoje#o#dia#esta#chuvoso!
 
 
-Vetor de ponteiros retornado: 
+    Vetor de ponteiros retornado: 
 
 
-vet[0] -> Hoje
+    vet[0] -> Hoje
 
 
-vet[1] -> o
+    vet[1] -> o
 
 
-vet[2] -> dia
+    vet[2] -> dia
 
 
-vet[3] -> esta 
+    vet[3] -> esta 
 
 
-vet[4] -> chuvoso!
+    vet[4] -> chuvoso!
 
 
-A função deve ser sem retorno (void), ou seja, alguns dos parâmetros deverão utilizar passagem por referência.
+    A função deve ser sem retorno (void), ou seja, alguns dos parâmetros deverão utilizar passagem por referência.
+
+  
+    Ex. de protótipo:
 
 
-Ex. de protótipo:
+    void my_str_token(token, frase, palavras, ... );
 
 
-void my_str_token(token, frase, palavras, ... );
+    onde:
+
+    > token - é o caractere a ser utilizado para a quebra;
 
 
-onde:
-
-> token - é o caractere a ser utilizado para a quebra;
+    > frase - é a frase a ser quebrada;
 
 
-> frase - é a frase a ser quebrada;
-
-
-> palavras - é o parâmetro que terá todas as palavras "quebradas"/encontradas na frase; 
+    > palavras - é o parâmetro que terá todas as palavras "quebradas"/encontradas na frase; 
