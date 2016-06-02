@@ -1,5 +1,7 @@
 # Laboratório de Programação
 
+### Requisitos do trabalho_ponteiros
+
 1. int my_strcmp( char *lhs, char *rhs ); 
 
   Essa função compara duas strings segundo sua ordem alfabética e retorna um inteiro. Se esse inteiro for negativo, é
