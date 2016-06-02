@@ -38,7 +38,7 @@ int main(){
 
 	char src[50], dest[50];
 
-	strcpy(src,  "This is source");
+	strcpy(src,  " This is source");
     strcpy(dest, "This is destination");
 
 	printf("%s\n", my_strcat(dest,src));
