@@ -60,6 +60,9 @@ void my_str_token(token, frase, palavras, ... );
 onde:
 
 > token - é o caractere a ser utilizado para a quebra;
+
+
 > frase - é a frase a ser quebrada;
-> palavras - é o parâmetro que terá todas as palavras "quebradas"/encontradas na
-frase;
+
+
+> palavras - é o parâmetro que terá todas as palavras "quebradas"/encontradas na frase; 
