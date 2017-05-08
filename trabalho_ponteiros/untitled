@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+main(){
+
+	int i = 0;
+
+	while (i < 13)
+	{
+		if(*str == ch){
+			return str;
+
+		}
+		++str;
+	}
+}

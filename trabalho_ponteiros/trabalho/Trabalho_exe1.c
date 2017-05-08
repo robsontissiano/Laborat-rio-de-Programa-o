@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<stdlib.h>
 #include <string.h>
 
 int my_strcmp(char *lhs,char *rhs){
@@ -26,8 +26,8 @@ int my_strcmp(char *lhs,char *rhs){
 
 int main(){
 
-	char a[] = "abacate";
-	char b[] = "abacate";
+	char a[] = "aa";
+	char b[] = "azz";
 
 	printf("%d\n",my_strcmp(a,b));
 
